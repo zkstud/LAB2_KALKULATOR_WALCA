@@ -10,8 +10,8 @@ public class Application extends javafx.application.Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("sample.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
-        stage.setTitle("Hello!");
+        Scene scene = new Scene(fxmlLoader.load(),  700, 200);
+        stage.setTitle("Kalkulator Walca - Nr.albumu 37652");
         stage.setScene(scene);
         stage.show();
         stage.setResizable(false);
